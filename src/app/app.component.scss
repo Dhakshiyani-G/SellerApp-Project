@@ -1,0 +1,99 @@
+.navigation {
+  background-color: rgb(255, 255, 255);
+  border-radius: 0px;
+  border-right: 1px solid rgba(0, 0, 0, 0.16);
+
+  & .header {
+    display: flex;
+    flex-direction: row;
+
+    & .header-icon {
+      width: 120px;
+      height: 30px;
+      margin-top: 10px;
+      margin-left: 8px;
+    }
+
+    & .close-icon {
+      cursor: pointer;
+    }
+  }
+
+  & .navigation-list {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 14px;
+
+    & .navigation-list-icon {
+      width: 35px;
+      height: 24px;
+    }
+
+    & .navigation-list-text {
+      font-size: 18px;
+      font-weight: 500;
+      margin-left: 10px;
+      margin-top: 1px;
+    }
+  }
+}
+
+.main-header {
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+
+  & .heading {
+    font-weight: bold;
+    font-size: 26px;
+    margin-left: 12px;
+  }
+
+  & .country-dropdown-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: #f0f2f4;
+    border-radius: 25px;
+    padding: 5px 10px;
+    width: 140px;
+    height: 25px;
+    margin-right: 15px;
+    margin-top: 7px;
+    cursor: pointer;
+
+    & .country-option {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+}
+
+::ng-deep .mat-mdc-menu-panel {
+  width: 132px;
+  background-color: #f0f2f4 !important;
+  margin-left: 5px !important;
+  border-radius: 0px !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.flag-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
+}
+
+.country-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.dropdown-country-name {
+  margin: 10px 0px 0px 10px;
+}

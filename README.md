@@ -1,5 +1,12 @@
 # SellerappAssignment
 
+Seller APP - Assignment
+
+To see the project, clone the below repository into your local editors.
+`https://github.com/Dhakshiyani-G/SellerApp-Project.git`
+
+Next, execute the commands npm install and npm start in the terminal to get started.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.12.
 
 ## Development server

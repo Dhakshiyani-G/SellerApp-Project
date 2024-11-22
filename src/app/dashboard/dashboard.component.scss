@@ -1,0 +1,16 @@
+.container {
+  margin: 40px 0px 0px 30px;
+
+  & .cards {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+  }
+
+  & mat-card {
+    width: 260px;
+    height: 150px;
+    border-radius: 8px;
+    background-color: white;
+  }
+}
